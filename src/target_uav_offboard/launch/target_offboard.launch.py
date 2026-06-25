@@ -20,7 +20,7 @@ def generate_launch_description():
     # 目标机起飞高度。
     takeoff_height_arg = DeclareLaunchArgument(
         'takeoff_height',
-        default_value='3.0',
+        default_value='5.0',
         description='Takeoff altitude in meters.',
     )
     # 目标机起飞朝向。
